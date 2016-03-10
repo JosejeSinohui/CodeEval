@@ -1,6 +1,6 @@
 #CodeEval String Mask
 #https://www.codeeval.com/open_challenges/199/
-
+#FIRST CHALLENGE!!
 import sys
 test_cases = open(sys.argv[1], 'r') # < test cases!
 for test in test_cases:

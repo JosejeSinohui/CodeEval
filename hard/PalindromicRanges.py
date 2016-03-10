@@ -26,7 +26,7 @@ for test in test_cases:
         L = L + 1
         Right = R
         
-    print(contGlobal)
+    print(contGlobal) #Imprime el numero de rangos interesantes
         
 
     

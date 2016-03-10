@@ -2,7 +2,7 @@
 #https://www.codeeval.com/open_challenges/45/
 
 test = 1955
-test = int(test)
+test = int(test) # Test from codeeval is string
 i = 0;
 while(True):
     backwardsTest = str(test)[::-1]

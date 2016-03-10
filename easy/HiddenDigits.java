@@ -1,5 +1,6 @@
 //CodeEval -Hidden Digits
 //https://www.codeeval.com/open_challenges/122/
+
 import java.io.*;
 public class Main {
     public static void main (String[] args) throws IOException {

@@ -4,6 +4,7 @@
 test_cases = ["John Sara Tom Susan | 3",
               "John Tom Mary | 5",
               "Vfo Mftmmd Tcc Xnhhh Bmxdp Noyssw Jyssz | 12"]
+              #Test cases from codeeval
 for test in test_cases:
     names = test.split("|")[0].split(" ")
     number = int(test.split("|")[1])-1

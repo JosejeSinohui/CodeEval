@@ -5,4 +5,4 @@
 test_cases = ["some line with text",
               "another line"]
 for test in test_cases:
-    print(test.split(" ")[-2])
+    print(test.split(" ")[-2])#lol

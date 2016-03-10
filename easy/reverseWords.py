@@ -6,7 +6,7 @@ test_cases = ["Hello World",
               "Hello CodeEval"]
 for test in test_cases:
     test = test.split(" ")
-    test[-1] = test[-1].strip()
+    test[-1] = test[-1].strip() #CodeEval gives a newline at the end
     print(" ".join(test[::-1]))
     
     

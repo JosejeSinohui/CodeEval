@@ -2,7 +2,7 @@
 #https://www.codeeval.com/open_challenges/1/
 
 test_cases = ["3 5 10",
-              "2 7 15"]
+              "2 7 15"] # Test cases come from CodeEval
 
 for test in test_cases:
     sequence = ""
