@@ -8,7 +8,7 @@ def toBinary(n):
     binary = 0 #Valor inicial
     while n > 0:
         residuo = n % 2 
-        binary = binary + (adjust * residuo)#Se le agrega el residuo * adjust, para que quede                                           en el lugar adecuado
+        binary = binary + (adjust * residuo)#Se le agrega el residuo * adjust, para que quede en el lugar adecuado
         n = n // 2 #Test toma el valor de la division (sin el residuo)
         adjust = adjust*10
     return(str(binary))
