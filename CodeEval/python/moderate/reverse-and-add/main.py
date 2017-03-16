@@ -13,8 +13,8 @@ for test in test_cases:
             break;
         test = test + int(backwardsTest)
         i = i + 1
-    
+
     print(str(i) + " " + str(test))
-    
+
 test_cases.close()
-    
+
